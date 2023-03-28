@@ -41,3 +41,5 @@ x = {
 }
 
 print(json.dumps(x, indent=4, separators=(". ", " = "))) # indent => indentation separators => relpaces , with . & : with =
+
+print(json.dumps(x, indent=4, sort_keys=True)) # sort key
